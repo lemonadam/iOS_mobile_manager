@@ -11,8 +11,10 @@
 #import "AppDelegate.h"
 #include <sys/types.h>
 #include <sys/sysctl.h>
-#import "AFNetworking.h"
+//#import "AFNetworking.h"
 #import <AdSupport/AdSupport.h>
+#import <AFNetworking/AFNetworking.h>
+
 
 @interface RootViewController ()
 {
@@ -258,7 +260,7 @@
     
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
     
-    NSMutableURLRequest *req = [[AFJSONRequestSerializer serializer]requestWithMethod:@"POST" URLString:@"https://" parameters:nil error:nil];
+    NSMutableURLRequest *req = [[AFJSONRequestSerializer serializer]requestWithMethod:@"POST" URLString:@"https://ies-qa.byted.org/small_tools/data/submit_phone_data" parameters:nil error:nil];
     
     req.timeoutInterval= [[[NSUserDefaults standardUserDefaults] valueForKey:@"timeoutInterval"] longValue];
     [req setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
