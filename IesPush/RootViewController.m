@@ -101,7 +101,13 @@
     [button_url setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
     [button_url setFrame:CGRectMake(width/7, (4.4*height)/5, 300, 100)];
     [button_url addTarget:self action:@selector(openurl) forControlEvents:UIControlEventTouchUpInside];
+    UIButton *item = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [item setTitle:@"图表" forState:UIControlStateNormal];
+    [item setFrame:CGRectMake(0, 0, 60, 35)];
+    [item addTarget:self action:@selector(pushVC) forControlEvents:UIControlEventTouchUpInside];
     
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:item];
+    self.navigationItem.rightBarButtonItem = rightItem;
     
     [self.view addSubview:_button];
     
@@ -302,6 +308,13 @@
         jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     }
     return jsonString;
+}
+
+- (void)pushVC
+{
+    SecondViewController *secondVC = [[SecondViewController alloc] init];
+    [self.navigationController pushViewController:secondVC animated:YES];
+//    [secondVC release];
 }
 
 
