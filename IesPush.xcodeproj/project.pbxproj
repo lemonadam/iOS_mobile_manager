@@ -11,10 +11,12 @@
 		0330B8761EA70577004833EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0330B8751EA70577004833EA /* AppDelegate.m */; };
 		0330B87C1EA70577004833EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0330B87A1EA70577004833EA /* Main.storyboard */; };
 		0330B87F1EA70577004833EA /* IesPush.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0330B87D1EA70577004833EA /* IesPush.xcdatamodeld */; };
-		0330B8811EA70577004833EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0330B8801EA70577004833EA /* Assets.xcassets */; };
 		0330B8841EA70577004833EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0330B8821EA70577004833EA /* LaunchScreen.storyboard */; };
 		039876E41EA799EE00F8F186 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039876E31EA799EE00F8F186 /* RootViewController.m */; };
 		039876E71EA79A9600F8F186 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039876E61EA79A9600F8F186 /* SecondViewController.m */; };
+		03D7EA971EBA0B620003A78C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D7EA921EBA0B620003A78C /* Images.xcassets */; };
+		03D7EA981EBA0B620003A78C /* RGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */; };
+		03D7EA991EBA0B620003A78C /* RGPaperLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7EA961EBA0B620003A78C /* RGPaperLayout.m */; };
 		03F6FD641EA9C33D0069D587 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F6FD631EA9C33D0069D587 /* icon.png */; };
 		900B84973E57C5814A73C3E9 /* libPods-IesPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C04289B40312A6A1BAEDEE /* libPods-IesPush.a */; };
 /* End PBXBuildFile section */
@@ -26,7 +28,6 @@
 		0330B8751EA70577004833EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0330B87B1EA70577004833EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0330B87E1EA70577004833EA /* IesPush.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IesPush.xcdatamodel; sourceTree = "<group>"; };
-		0330B8801EA70577004833EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0330B8831EA70577004833EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0330B8851EA70577004833EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0330B88B1EA70E0D004833EA /* IesPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IesPush.entitlements; sourceTree = "<group>"; };
@@ -34,6 +35,11 @@
 		039876E31EA799EE00F8F186 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		039876E51EA79A9600F8F186 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		039876E61EA79A9600F8F186 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		03D7EA921EBA0B620003A78C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03D7EA931EBA0B620003A78C /* RGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCollectionViewCell.h; sourceTree = "<group>"; };
+		03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCollectionViewCell.m; sourceTree = "<group>"; };
+		03D7EA951EBA0B620003A78C /* RGPaperLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RGPaperLayout.h; path = IesPush/RGPaperLayout.h; sourceTree = "<group>"; };
+		03D7EA961EBA0B620003A78C /* RGPaperLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RGPaperLayout.m; path = IesPush/RGPaperLayout.m; sourceTree = "<group>"; };
 		03F6FD631EA9C33D0069D587 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		21FC555B2B4F5242946A6165 /* Pods-IesPush.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IesPush.release.xcconfig"; path = "Pods/Target Support Files/Pods-IesPush/Pods-IesPush.release.xcconfig"; sourceTree = "<group>"; };
 		32C04289B40312A6A1BAEDEE /* libPods-IesPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IesPush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +61,8 @@
 		0330B8651EA70576004833EA = {
 			isa = PBXGroup;
 			children = (
+				03D7EA951EBA0B620003A78C /* RGPaperLayout.h */,
+				03D7EA961EBA0B620003A78C /* RGPaperLayout.m */,
 				0330B8701EA70577004833EA /* IesPush */,
 				0330B86F1EA70577004833EA /* Products */,
 				3DA41CAF741FA2D64B016E7B /* Pods */,
@@ -73,6 +81,7 @@
 		0330B8701EA70577004833EA /* IesPush */ = {
 			isa = PBXGroup;
 			children = (
+				03D7EA921EBA0B620003A78C /* Images.xcassets */,
 				03F6FD631EA9C33D0069D587 /* icon.png */,
 				0330B88B1EA70E0D004833EA /* IesPush.entitlements */,
 				0330B8741EA70577004833EA /* AppDelegate.h */,
@@ -80,9 +89,10 @@
 				039876E21EA799EE00F8F186 /* RootViewController.h */,
 				039876E31EA799EE00F8F186 /* RootViewController.m */,
 				039876E51EA79A9600F8F186 /* SecondViewController.h */,
+				03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */,
 				039876E61EA79A9600F8F186 /* SecondViewController.m */,
+				03D7EA931EBA0B620003A78C /* RGCollectionViewCell.h */,
 				0330B87A1EA70577004833EA /* Main.storyboard */,
-				0330B8801EA70577004833EA /* Assets.xcassets */,
 				0330B8821EA70577004833EA /* LaunchScreen.storyboard */,
 				0330B8851EA70577004833EA /* Info.plist */,
 				0330B87D1EA70577004833EA /* IesPush.xcdatamodeld */,
@@ -184,8 +194,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03F6FD641EA9C33D0069D587 /* icon.png in Resources */,
+				03D7EA971EBA0B620003A78C /* Images.xcassets in Resources */,
 				0330B8841EA70577004833EA /* LaunchScreen.storyboard in Resources */,
-				0330B8811EA70577004833EA /* Assets.xcassets in Resources */,
 				0330B87C1EA70577004833EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +258,9 @@
 				039876E71EA79A9600F8F186 /* SecondViewController.m in Sources */,
 				0330B87F1EA70577004833EA /* IesPush.xcdatamodeld in Sources */,
 				0330B8761EA70577004833EA /* AppDelegate.m in Sources */,
+				03D7EA981EBA0B620003A78C /* RGCollectionViewCell.m in Sources */,
 				0330B8731EA70577004833EA /* main.m in Sources */,
+				03D7EA991EBA0B620003A78C /* RGPaperLayout.m in Sources */,
 				039876E41EA799EE00F8F186 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

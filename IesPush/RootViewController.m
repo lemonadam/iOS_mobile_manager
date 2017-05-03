@@ -312,8 +312,9 @@
 
 - (void)pushVC
 {
-    SecondViewController *secondVC = [[SecondViewController alloc] init];
-    [self.navigationController pushViewController:secondVC animated:YES];
+        UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        SecondViewController * vc = [board instantiateViewControllerWithIdentifier:@"second"];
+    [self.navigationController pushViewController:vc animated:YES];
 //    [secondVC release];
 }
 
