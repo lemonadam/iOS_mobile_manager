@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '47CFBFBAB67F7032E43CF290DD8F55F9'
-               BlueprintName = 'Pods-IesPush'
+               BlueprintIdentifier = 'B040310CB6EA0803B1ED7E044EE2C871'
+               BlueprintName = 'HYBControllerTransitions'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-IesPush.a'>
+               BuildableName = 'libHYBControllerTransitions.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -14,13 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - HYBControllerTransitions (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - HYBControllerTransitions (~> 1.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  HYBControllerTransitions: 799139b648ce07fc7bee0046eba86bf71acb4f7f
 
-PODFILE CHECKSUM: f3cefb2996aaafe3303c8bb5b4bf27f78d894114
+PODFILE CHECKSUM: a044d872d27232ebdab6a5020901e1d231beb69d
 
 COCOAPODS: 1.0.1

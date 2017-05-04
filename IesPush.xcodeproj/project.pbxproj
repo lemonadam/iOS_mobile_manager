@@ -12,8 +12,11 @@
 		0330B87C1EA70577004833EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0330B87A1EA70577004833EA /* Main.storyboard */; };
 		0330B87F1EA70577004833EA /* IesPush.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0330B87D1EA70577004833EA /* IesPush.xcdatamodeld */; };
 		0330B8841EA70577004833EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0330B8821EA70577004833EA /* LaunchScreen.storyboard */; };
+		036D65241EBB0A2000297DA9 /* GraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D65221EBB0A2000297DA9 /* GraViewController.m */; };
+		036D65251EBB0A2000297DA9 /* GraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036D65231EBB0A2000297DA9 /* GraViewController.xib */; };
+		036D652A1EBB471200297DA9 /* MobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D65291EBB471200297DA9 /* MobileViewController.m */; };
+		036D652D1EBB4F3800297DA9 /* MobileNationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D652C1EBB4F3800297DA9 /* MobileNationController.m */; };
 		039876E41EA799EE00F8F186 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039876E31EA799EE00F8F186 /* RootViewController.m */; };
-		039876E71EA79A9600F8F186 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039876E61EA79A9600F8F186 /* SecondViewController.m */; };
 		03D7EA971EBA0B620003A78C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D7EA921EBA0B620003A78C /* Images.xcassets */; };
 		03D7EA981EBA0B620003A78C /* RGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */; };
 		03D7EA991EBA0B620003A78C /* RGPaperLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7EA961EBA0B620003A78C /* RGPaperLayout.m */; };
@@ -31,10 +34,15 @@
 		0330B8831EA70577004833EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0330B8851EA70577004833EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0330B88B1EA70E0D004833EA /* IesPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IesPush.entitlements; sourceTree = "<group>"; };
+		036D65211EBB0A2000297DA9 /* GraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraViewController.h; path = ../GraViewController.h; sourceTree = "<group>"; };
+		036D65221EBB0A2000297DA9 /* GraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraViewController.m; path = ../GraViewController.m; sourceTree = "<group>"; };
+		036D65231EBB0A2000297DA9 /* GraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GraViewController.xib; path = ../GraViewController.xib; sourceTree = "<group>"; };
+		036D65281EBB471200297DA9 /* MobileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileViewController.h; sourceTree = "<group>"; };
+		036D65291EBB471200297DA9 /* MobileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileViewController.m; sourceTree = "<group>"; };
+		036D652B1EBB4F3800297DA9 /* MobileNationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileNationController.h; sourceTree = "<group>"; };
+		036D652C1EBB4F3800297DA9 /* MobileNationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileNationController.m; sourceTree = "<group>"; };
 		039876E21EA799EE00F8F186 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		039876E31EA799EE00F8F186 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		039876E51EA79A9600F8F186 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		039876E61EA79A9600F8F186 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		03D7EA921EBA0B620003A78C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03D7EA931EBA0B620003A78C /* RGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGCollectionViewCell.h; sourceTree = "<group>"; };
 		03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGCollectionViewCell.m; sourceTree = "<group>"; };
@@ -81,18 +89,17 @@
 		0330B8701EA70577004833EA /* IesPush */ = {
 			isa = PBXGroup;
 			children = (
+				0330B8741EA70577004833EA /* AppDelegate.h */,
+				0330B8751EA70577004833EA /* AppDelegate.m */,
+				03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */,
+				03D7EA931EBA0B620003A78C /* RGCollectionViewCell.h */,
+				039876E21EA799EE00F8F186 /* RootViewController.h */,
+				039876E31EA799EE00F8F186 /* RootViewController.m */,
+				036D65271EBB0A5700297DA9 /* mobile */,
+				036D65261EBB0A2F00297DA9 /* graph */,
 				03D7EA921EBA0B620003A78C /* Images.xcassets */,
 				03F6FD631EA9C33D0069D587 /* icon.png */,
 				0330B88B1EA70E0D004833EA /* IesPush.entitlements */,
-				0330B8741EA70577004833EA /* AppDelegate.h */,
-				0330B8751EA70577004833EA /* AppDelegate.m */,
-				039876E21EA799EE00F8F186 /* RootViewController.h */,
-				039876E31EA799EE00F8F186 /* RootViewController.m */,
-				039876E51EA79A9600F8F186 /* SecondViewController.h */,
-				03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */,
-				039876E61EA79A9600F8F186 /* SecondViewController.m */,
-				03D7EA931EBA0B620003A78C /* RGCollectionViewCell.h */,
-				0330B87A1EA70577004833EA /* Main.storyboard */,
 				0330B8821EA70577004833EA /* LaunchScreen.storyboard */,
 				0330B8851EA70577004833EA /* Info.plist */,
 				0330B87D1EA70577004833EA /* IesPush.xcdatamodeld */,
@@ -107,6 +114,28 @@
 				0330B8721EA70577004833EA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		036D65261EBB0A2F00297DA9 /* graph */ = {
+			isa = PBXGroup;
+			children = (
+				0330B87A1EA70577004833EA /* Main.storyboard */,
+				036D65211EBB0A2000297DA9 /* GraViewController.h */,
+				036D65221EBB0A2000297DA9 /* GraViewController.m */,
+				036D65231EBB0A2000297DA9 /* GraViewController.xib */,
+			);
+			name = graph;
+			sourceTree = "<group>";
+		};
+		036D65271EBB0A5700297DA9 /* mobile */ = {
+			isa = PBXGroup;
+			children = (
+				036D652B1EBB4F3800297DA9 /* MobileNationController.h */,
+				036D652C1EBB4F3800297DA9 /* MobileNationController.m */,
+				036D65281EBB471200297DA9 /* MobileViewController.h */,
+				036D65291EBB471200297DA9 /* MobileViewController.m */,
+			);
+			name = mobile;
 			sourceTree = "<group>";
 		};
 		3DA41CAF741FA2D64B016E7B /* Pods */ = {
@@ -197,6 +226,7 @@
 				03D7EA971EBA0B620003A78C /* Images.xcassets in Resources */,
 				0330B8841EA70577004833EA /* LaunchScreen.storyboard in Resources */,
 				0330B87C1EA70577004833EA /* Main.storyboard in Resources */,
+				036D65251EBB0A2000297DA9 /* GraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,13 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039876E71EA79A9600F8F186 /* SecondViewController.m in Sources */,
 				0330B87F1EA70577004833EA /* IesPush.xcdatamodeld in Sources */,
 				0330B8761EA70577004833EA /* AppDelegate.m in Sources */,
 				03D7EA981EBA0B620003A78C /* RGCollectionViewCell.m in Sources */,
+				036D652A1EBB471200297DA9 /* MobileViewController.m in Sources */,
 				0330B8731EA70577004833EA /* main.m in Sources */,
 				03D7EA991EBA0B620003A78C /* RGPaperLayout.m in Sources */,
 				039876E41EA799EE00F8F186 /* RootViewController.m in Sources */,
+				036D65241EBB0A2000297DA9 /* GraViewController.m in Sources */,
+				036D652D1EBB4F3800297DA9 /* MobileNationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

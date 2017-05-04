@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController<UITextViewDelegate>
+@interface RootViewController : UIViewController
 
 //@property(strong,nonatomic) UITextView *_inputTV;
 //@property(strong,nonatomic) UILabel *_placeHolderLabel;

@@ -11,11 +11,13 @@
 #define REUSE_ID @"reuse"
 #import "SecondViewController.h"
 #import "RGCollectionViewCell.h"
-//#import "GraViewController.h"
+#import "RootViewController.h"
+#import <HYBControllerTransitions/HYBBubbleTransition.h>
 
 @interface SecondViewController ()
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property NSMutableArray *listOfData;
+@property (nonatomic, strong) HYBBubbleTransition *bubbleTransition;
 
 @end
 
@@ -99,6 +101,36 @@
     NSLog(@"%@",tag);
     NSString *image_tag=[NSString stringWithFormat:@"%ld",(long) viewClicked.tag];
     NSLog(@"imageview is -->: %@",tag);
+    RootViewController *vc = [[RootViewController alloc] init];
+    vc.modalPresentationStyle = UIModalPresentationCustom;
+    
+    // Remember to own it strongly
+    // Because delegate is weak reference, and it will be released after out of the function body.
+    self.bubbleTransition = [[HYBBubbleTransition alloc] initWithPresented:^(UIViewController *presented, UIViewController *presenting, UIViewController *source, HYBBaseTransition *transition) {
+        // You need to cast type to the real subclass type.
+        HYBBubbleTransition *bubble = (HYBBubbleTransition *)transition;
+        
+        // If you want to use Spring animation, set to YES.
+        // Default is NO.
+        //    bubble.animatedWithSpring = YES;
+        bubble.bubbleColor = presented.view.backgroundColor;
+        
+        // 由于一个控制器有导航，一个没有，导致会有64的误差，所以要记得处理这种情况
+        CGPoint center = [self.view viewWithTag:1010].center;
+        center.y += 64;
+        
+        bubble.bubbleStartPoint = center;
+    } dismissed:^(UIViewController *dismissed, HYBBaseTransition *transition) {
+        // Do nothing and it is ok here.
+        // If you really want to do something, here you can set the mode.
+        // But inside the super class, it is set to be automally.
+        // So you do this has no meaning.
+        transition.transitionMode = kHYBTransitionDismiss;
+    }];
+    vc.transitioningDelegate = self.bubbleTransition;
+    
+    [self presentViewController:vc animated:YES completion:NULL];
+
     if ([tag isEqualToString:@"ice"] ) {
 //        GraViewController *secondVC = [[GraViewController alloc] init];
 //        [self presentViewController:secondVC animated:YES completion:nil];

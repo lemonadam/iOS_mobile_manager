@@ -40,11 +40,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    // Navigation rootVC -> rootViewController
-    RootViewController *rootViewController = [[RootViewController alloc] init];
-    //    NSLog(@"rootViewController nav 1: %p", rootViewController.navigationController);
+    UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    RootViewController * rootViewController = [board instantiateViewControllerWithIdentifier:@"root"];
     UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:rootViewController];
-    //    NSLog(@"rootViewController nav 2: %p", rootViewController.navigationController);
     self.window.rootViewController = navigation;
     
 
