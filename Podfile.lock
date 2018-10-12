@@ -15,15 +15,35 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - HYBControllerTransitions (1.0.1)
+  - KIF (3.7.4):
+    - KIF/Core (= 3.7.4)
+  - KIF/Core (3.7.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - HYBControllerTransitions (~> 1.0.0)
+  - KIF (from `https://github.com/lemonadam/KIF_WS.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - HYBControllerTransitions
+
+EXTERNAL SOURCES:
+  KIF:
+    :branch: master
+    :git: https://github.com/lemonadam/KIF_WS.git
+
+CHECKOUT OPTIONS:
+  KIF:
+    :commit: 0424c1ec2450637b246a6442fe2929fdde78f59e
+    :git: https://github.com/lemonadam/KIF_WS.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   HYBControllerTransitions: 799139b648ce07fc7bee0046eba86bf71acb4f7f
+  KIF: f3d01c109ee9d1cfe6b0f2bb2aa278e807e971e2
 
-PODFILE CHECKSUM: a044d872d27232ebdab6a5020901e1d231beb69d
+PODFILE CHECKSUM: 2a11b92cccb7d7b57c12e9f50c6e7b13a49eccaf
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.5.3

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B040310CB6EA0803B1ED7E044EE2C871'
-               BlueprintName = 'HYBControllerTransitions'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libHYBControllerTransitions.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "28A996A230DAD9AD62592B7F0E754277"
+               BlueprintName = "HYBControllerTransitions"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libHYBControllerTransitions.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

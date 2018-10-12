@@ -12,10 +12,10 @@
 		0330B87C1EA70577004833EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0330B87A1EA70577004833EA /* Main.storyboard */; };
 		0330B87F1EA70577004833EA /* IesPush.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0330B87D1EA70577004833EA /* IesPush.xcdatamodeld */; };
 		0330B8841EA70577004833EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0330B8821EA70577004833EA /* LaunchScreen.storyboard */; };
+		034F83A620172FE1008987D7 /* MobileAgentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F83A520172FE1008987D7 /* MobileAgentViewController.m */; };
 		036D65241EBB0A2000297DA9 /* GraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D65221EBB0A2000297DA9 /* GraViewController.m */; };
 		036D65251EBB0A2000297DA9 /* GraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036D65231EBB0A2000297DA9 /* GraViewController.xib */; };
 		036D652A1EBB471200297DA9 /* MobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D65291EBB471200297DA9 /* MobileViewController.m */; };
-		036D652D1EBB4F3800297DA9 /* MobileNationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D652C1EBB4F3800297DA9 /* MobileNationController.m */; };
 		039876E41EA799EE00F8F186 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039876E31EA799EE00F8F186 /* RootViewController.m */; };
 		03D7EA971EBA0B620003A78C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D7EA921EBA0B620003A78C /* Images.xcassets */; };
 		03D7EA981EBA0B620003A78C /* RGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */; };
@@ -34,13 +34,13 @@
 		0330B8831EA70577004833EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0330B8851EA70577004833EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0330B88B1EA70E0D004833EA /* IesPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IesPush.entitlements; sourceTree = "<group>"; };
+		034F83A420172FE1008987D7 /* MobileAgentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileAgentViewController.h; sourceTree = "<group>"; };
+		034F83A520172FE1008987D7 /* MobileAgentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileAgentViewController.m; sourceTree = "<group>"; };
 		036D65211EBB0A2000297DA9 /* GraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraViewController.h; path = ../GraViewController.h; sourceTree = "<group>"; };
 		036D65221EBB0A2000297DA9 /* GraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraViewController.m; path = ../GraViewController.m; sourceTree = "<group>"; };
 		036D65231EBB0A2000297DA9 /* GraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GraViewController.xib; path = ../GraViewController.xib; sourceTree = "<group>"; };
 		036D65281EBB471200297DA9 /* MobileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileViewController.h; sourceTree = "<group>"; };
 		036D65291EBB471200297DA9 /* MobileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileViewController.m; sourceTree = "<group>"; };
-		036D652B1EBB4F3800297DA9 /* MobileNationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileNationController.h; sourceTree = "<group>"; };
-		036D652C1EBB4F3800297DA9 /* MobileNationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileNationController.m; sourceTree = "<group>"; };
 		039876E21EA799EE00F8F186 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		039876E31EA799EE00F8F186 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		03D7EA921EBA0B620003A78C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -130,10 +130,10 @@
 		036D65271EBB0A5700297DA9 /* mobile */ = {
 			isa = PBXGroup;
 			children = (
-				036D652B1EBB4F3800297DA9 /* MobileNationController.h */,
-				036D652C1EBB4F3800297DA9 /* MobileNationController.m */,
 				036D65281EBB471200297DA9 /* MobileViewController.h */,
 				036D65291EBB471200297DA9 /* MobileViewController.m */,
+				034F83A420172FE1008987D7 /* MobileAgentViewController.h */,
+				034F83A520172FE1008987D7 /* MobileAgentViewController.m */,
 			);
 			name = mobile;
 			sourceTree = "<group>";
@@ -166,8 +166,6 @@
 				0330B86A1EA70577004833EA /* Sources */,
 				0330B86B1EA70577004833EA /* Frameworks */,
 				0330B86C1EA70577004833EA /* Resources */,
-				CD0EDF11F2501EAA7127BA10 /* [CP] Embed Pods Frameworks */,
-				274CC3DDC09650E2B0E42EE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,7 +187,7 @@
 				TargetAttributes = {
 					0330B86D1EA70577004833EA = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = X46375UBYG;
+						DevelopmentTeam = 42QVF84YRH;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -233,49 +231,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		274CC3DDC09650E2B0E42EE1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IesPush/Pods-IesPush-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		985A62E5FB0619E55C30CBBB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IesPush-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CD0EDF11F2501EAA7127BA10 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IesPush/Pods-IesPush-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -292,8 +263,8 @@
 				0330B8731EA70577004833EA /* main.m in Sources */,
 				03D7EA991EBA0B620003A78C /* RGPaperLayout.m in Sources */,
 				039876E41EA799EE00F8F186 /* RootViewController.m in Sources */,
+				034F83A620172FE1008987D7 /* MobileAgentViewController.m in Sources */,
 				036D65241EBB0A2000297DA9 /* GraViewController.m in Sources */,
-				036D652D1EBB4F3800297DA9 /* MobileNationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +387,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = IesPush/IesPush.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = X46375UBYG;
+				DEVELOPMENT_TEAM = 42QVF84YRH;
 				INFOPLIST_FILE = IesPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ss.iphone.iesmobile.inhouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.push;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -434,10 +405,10 @@
 				CODE_SIGN_ENTITLEMENTS = IesPush/IesPush.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Bytedance Network Technology Co,Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = X46375UBYG;
+				DEVELOPMENT_TEAM = 42QVF84YRH;
 				INFOPLIST_FILE = IesPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ss.iphone.iesmobile.inhouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.push;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

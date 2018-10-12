@@ -13,6 +13,7 @@
 //#import "AFNetworking.h"
 #import <AdSupport/AdSupport.h>
 #import <AFNetworking/AFNetworking.h>
+#import "MobileAgentViewController.h"
 
 
 @interface MobileViewController ()
@@ -327,7 +328,15 @@
 //    UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
 //    SecondViewController * vc = [board instantiateViewControllerWithIdentifier:@"second"];
 //    [self.navigationController pushViewController:vc animated:YES];
-    //    [secondVC release];
+//        [secondVC release];
+//    NSURL *url = [NSURL URLWithString:@"https://ies-qa.byted.org/small_tools/phone_manage"];
+//    [[UIApplication sharedApplication] openURL:url];
+
+    MobileAgentViewController *mavc = [[MobileAgentViewController alloc] init];
+    [self presentViewController:mavc animated:YES completion:NULL];
+    
+    
+    
 }
 
 - (void)backVC

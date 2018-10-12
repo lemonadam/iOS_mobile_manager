@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '47CFBFBAB67F7032E43CF290DD8F55F9'
-               BlueprintName = 'Pods-IesPush'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-IesPush.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1044BFC79D05981B423568DA1B326BDA"
+               BlueprintName = "Pods-IesPush"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-IesPush.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
