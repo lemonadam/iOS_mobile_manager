@@ -17,6 +17,7 @@
 		036D65251EBB0A2000297DA9 /* GraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036D65231EBB0A2000297DA9 /* GraViewController.xib */; };
 		036D652A1EBB471200297DA9 /* MobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D65291EBB471200297DA9 /* MobileViewController.m */; };
 		037EDCA9217067F000E6DB6B /* IesPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EDCA8217067F000E6DB6B /* IesPushTests.m */; };
+		037EDCB821706EAE00E6DB6B /* IesPushKITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EDCB721706EAE00E6DB6B /* IesPushKITTests.m */; };
 		039876E41EA799EE00F8F186 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039876E31EA799EE00F8F186 /* RootViewController.m */; };
 		03D7EA971EBA0B620003A78C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D7EA921EBA0B620003A78C /* Images.xcassets */; };
 		03D7EA981EBA0B620003A78C /* RGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */; };
@@ -56,6 +57,10 @@
 		037EDCA8217067F000E6DB6B /* IesPushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IesPushTests.m; sourceTree = "<group>"; };
 		037EDCAA217067F000E6DB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		037EDCB02170689900E6DB6B /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037EDCB221706C5200E6DB6B /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037EDCB721706EAE00E6DB6B /* IesPushKITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IesPushKITTests.m; sourceTree = "<group>"; };
+		037EDCB92170709C00E6DB6B /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037EDCBD2170719A00E6DB6B /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		039876E21EA799EE00F8F186 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		039876E31EA799EE00F8F186 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		03D7EA921EBA0B620003A78C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -167,6 +172,7 @@
 			children = (
 				037EDCA8217067F000E6DB6B /* IesPushTests.m */,
 				037EDCAA217067F000E6DB6B /* Info.plist */,
+				037EDCB721706EAE00E6DB6B /* IesPushKITTests.m */,
 			);
 			path = IesPushTests;
 			sourceTree = "<group>";
@@ -183,6 +189,9 @@
 		AF3344840EC3C23FF686CCC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				037EDCBD2170719A00E6DB6B /* libKIF.a */,
+				037EDCB92170709C00E6DB6B /* libKIF.a */,
+				037EDCB221706C5200E6DB6B /* libKIF.a */,
 				037EDCB02170689900E6DB6B /* libKIF.a */,
 				32C04289B40312A6A1BAEDEE /* libPods-IesPush.a */,
 			);
@@ -338,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037EDCB821706EAE00E6DB6B /* IesPushKITTests.m in Sources */,
 				037EDCA9217067F000E6DB6B /* IesPushTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +514,7 @@
 		037EDCAE217067F000E6DB6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -530,12 +541,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IesPush.app/IesPush";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		037EDCAF217067F000E6DB6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -561,6 +574,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IesPush.app/IesPush";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
