@@ -16,6 +16,7 @@
 		036D65241EBB0A2000297DA9 /* GraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D65221EBB0A2000297DA9 /* GraViewController.m */; };
 		036D65251EBB0A2000297DA9 /* GraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036D65231EBB0A2000297DA9 /* GraViewController.xib */; };
 		036D652A1EBB471200297DA9 /* MobileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036D65291EBB471200297DA9 /* MobileViewController.m */; };
+		037EDCA9217067F000E6DB6B /* IesPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EDCA8217067F000E6DB6B /* IesPushTests.m */; };
 		039876E41EA799EE00F8F186 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039876E31EA799EE00F8F186 /* RootViewController.m */; };
 		03D7EA971EBA0B620003A78C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D7EA921EBA0B620003A78C /* Images.xcassets */; };
 		03D7EA981EBA0B620003A78C /* RGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D7EA941EBA0B620003A78C /* RGCollectionViewCell.m */; };
@@ -23,6 +24,16 @@
 		03F6FD641EA9C33D0069D587 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03F6FD631EA9C33D0069D587 /* icon.png */; };
 		900B84973E57C5814A73C3E9 /* libPods-IesPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C04289B40312A6A1BAEDEE /* libPods-IesPush.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		037EDCAB217067F000E6DB6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0330B8661EA70576004833EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0330B86D1EA70577004833EA;
+			remoteInfo = IesPush;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0330B86E1EA70577004833EA /* IesPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IesPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +52,10 @@
 		036D65231EBB0A2000297DA9 /* GraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GraViewController.xib; path = ../GraViewController.xib; sourceTree = "<group>"; };
 		036D65281EBB471200297DA9 /* MobileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileViewController.h; sourceTree = "<group>"; };
 		036D65291EBB471200297DA9 /* MobileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileViewController.m; sourceTree = "<group>"; };
+		037EDCA6217067F000E6DB6B /* IesPushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IesPushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		037EDCA8217067F000E6DB6B /* IesPushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IesPushTests.m; sourceTree = "<group>"; };
+		037EDCAA217067F000E6DB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037EDCB02170689900E6DB6B /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		039876E21EA799EE00F8F186 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		039876E31EA799EE00F8F186 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		03D7EA921EBA0B620003A78C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -63,6 +78,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		037EDCA3217067F000E6DB6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +94,7 @@
 				03D7EA951EBA0B620003A78C /* RGPaperLayout.h */,
 				03D7EA961EBA0B620003A78C /* RGPaperLayout.m */,
 				0330B8701EA70577004833EA /* IesPush */,
+				037EDCA7217067F000E6DB6B /* IesPushTests */,
 				0330B86F1EA70577004833EA /* Products */,
 				3DA41CAF741FA2D64B016E7B /* Pods */,
 				AF3344840EC3C23FF686CCC0 /* Frameworks */,
@@ -82,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				0330B86E1EA70577004833EA /* IesPush.app */,
+				037EDCA6217067F000E6DB6B /* IesPushTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +162,15 @@
 			name = mobile;
 			sourceTree = "<group>";
 		};
+		037EDCA7217067F000E6DB6B /* IesPushTests */ = {
+			isa = PBXGroup;
+			children = (
+				037EDCA8217067F000E6DB6B /* IesPushTests.m */,
+				037EDCAA217067F000E6DB6B /* Info.plist */,
+			);
+			path = IesPushTests;
+			sourceTree = "<group>";
+		};
 		3DA41CAF741FA2D64B016E7B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +183,7 @@
 		AF3344840EC3C23FF686CCC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				037EDCB02170689900E6DB6B /* libKIF.a */,
 				32C04289B40312A6A1BAEDEE /* libPods-IesPush.a */,
 			);
 			name = Frameworks;
@@ -176,6 +210,24 @@
 			productReference = 0330B86E1EA70577004833EA /* IesPush.app */;
 			productType = "com.apple.product-type.application";
 		};
+		037EDCA5217067F000E6DB6B /* IesPushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037EDCAD217067F000E6DB6B /* Build configuration list for PBXNativeTarget "IesPushTests" */;
+			buildPhases = (
+				037EDCA2217067F000E6DB6B /* Sources */,
+				037EDCA3217067F000E6DB6B /* Frameworks */,
+				037EDCA4217067F000E6DB6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037EDCAC217067F000E6DB6B /* PBXTargetDependency */,
+			);
+			name = IesPushTests;
+			productName = IesPushTests;
+			productReference = 037EDCA6217067F000E6DB6B /* IesPushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +247,12 @@
 							};
 						};
 					};
+					037EDCA5217067F000E6DB6B = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 42QVF84YRH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0330B86D1EA70577004833EA;
+					};
 				};
 			};
 			buildConfigurationList = 0330B8691EA70576004833EA /* Build configuration list for PBXProject "IesPush" */;
@@ -211,6 +269,7 @@
 			projectRoot = "";
 			targets = (
 				0330B86D1EA70577004833EA /* IesPush */,
+				037EDCA5217067F000E6DB6B /* IesPushTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,6 +284,13 @@
 				0330B8841EA70577004833EA /* LaunchScreen.storyboard in Resources */,
 				0330B87C1EA70577004833EA /* Main.storyboard in Resources */,
 				036D65251EBB0A2000297DA9 /* GraViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037EDCA4217067F000E6DB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +334,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		037EDCA2217067F000E6DB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037EDCA9217067F000E6DB6B /* IesPushTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037EDCAC217067F000E6DB6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0330B86D1EA70577004833EA /* IesPush */;
+			targetProxy = 037EDCAB217067F000E6DB6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0330B87A1EA70577004833EA /* Main.storyboard */ = {
@@ -388,6 +470,8 @@
 				CODE_SIGN_ENTITLEMENTS = IesPush/IesPush.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 42QVF84YRH;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = IesPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.push;
@@ -406,12 +490,77 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Bytedance Network Technology Co,Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 42QVF84YRH;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = IesPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.push;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		037EDCAE217067F000E6DB6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42QVF84YRH;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IesPushTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.push.IesPushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IesPush.app/IesPush";
+			};
+			name = Debug;
+		};
+		037EDCAF217067F000E6DB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42QVF84YRH;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = IesPushTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.push.IesPushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IesPush.app/IesPush";
 			};
 			name = Release;
 		};
@@ -432,6 +581,15 @@
 			buildConfigurations = (
 				0330B8891EA70577004833EA /* Debug */,
 				0330B88A1EA70577004833EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037EDCAD217067F000E6DB6B /* Build configuration list for PBXNativeTarget "IesPushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037EDCAE217067F000E6DB6B /* Debug */,
+				037EDCAF217067F000E6DB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
