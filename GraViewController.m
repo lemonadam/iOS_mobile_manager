@@ -33,7 +33,19 @@
 }
 
 - (void)dismiss {
-    [self dismissViewControllerAnimated:YES completion:NULL];
+    //    系统弹窗测试代码
+    UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"提示" message:@"确定要提交吗？" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction * cancelAc = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        //点击取消要执行的代码
+        
+    }];
+    UIAlertAction *comfirmAc = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [self dismissViewControllerAnimated:YES completion:NULL];
+        //点击确定要执行的代码
+    }];
+    [alertVC addAction:cancelAc];
+    [alertVC addAction:comfirmAc];
+    [self presentViewController:alertVC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

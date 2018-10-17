@@ -314,6 +314,16 @@ static BOOL KIFUITestActorAnimationsEnabled = YES;
     }
 }
 
+//- (UIView *)getViewWithAccessibilityLabel:(NSString *)label value:(NSString *)value traits:(UIAccessibilityTraits)traits
+//{
+//    @autoreleasepool
+//    {
+//        UIView *view = nil;
+//        UIAccessibilityElement *element = nil;
+//        return  [self waitForAccessibilityElement:&element view:&view withLabel:label value:value traits:traits tappable:YES];
+//    }
+//}
+
 - (void)tapAccessibilityElement:(UIAccessibilityElement *)element inView:(UIView *)view
 {
     [self runBlock:^KIFTestStepResult(NSError **error) {

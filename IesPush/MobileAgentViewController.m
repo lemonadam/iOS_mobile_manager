@@ -41,6 +41,8 @@
 
 - (void)dismiss {
     [self dismissViewControllerAnimated:YES completion:NULL];
+
+   
 }
 
 - (void)didReceiveMemoryWarning {
