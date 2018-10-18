@@ -296,9 +296,6 @@ typedef NS_ENUM(NSUInteger, KIFPullToRefreshTiming) {
  @param element The accessibility element to tap.
  @param view The view containing the accessibility element.
  */
-- (void)getViewWithAccessibilityLabel:(NSString *)label value:(NSString *)value traits:(UIAccessibilityTraits)traits;
-
-
 - (void)tapAccessibilityElement:(UIAccessibilityElement *)element inView:(UIView *)view;
 
 /*!

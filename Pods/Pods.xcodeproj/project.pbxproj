@@ -161,6 +161,7 @@
 /* Begin PBXFileReference section */
 		002514564492631246F12B44855E7A54 /* XCTestCase-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase-KIFAdditions.h"; path = "Additions/XCTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
 		0343F4D16C1E8E737AA405347342B436 /* KIFTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestActor.m; path = Classes/KIFTestActor.m; sourceTree = "<group>"; };
+		0375A7E621789D8E002E229F /* IdentifierTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IdentifierTests; sourceTree = "<group>"; };
 		06FCE6FB79421F7C5C617413537CB3A2 /* HYBBaseTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYBBaseTransition.m; path = HYBControllerTransitions/HYBBaseTransition.m; sourceTree = "<group>"; };
 		070366BEF90BCDC8F071919A96A9D8DC /* KIF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KIF.xcconfig; sourceTree = "<group>"; };
 		0959B5DF26BB1177EB42C5C4F3DA1C7C /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
@@ -186,7 +187,7 @@
 		3567B2700DB2B14068C271CF9F841CA6 /* KIFTextInputTraitsOverrides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTextInputTraitsOverrides.h; path = Classes/KIFTextInputTraitsOverrides.h; sourceTree = "<group>"; };
 		36875743EBF4D2F920248E3F60344A6D /* KIFTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestCase.m; path = Classes/KIFTestCase.m; sourceTree = "<group>"; };
 		381DE1C9E7DDFA68F5290DBF9284E3E8 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		3F3B39B6CAFAE2D5B8631D8E7F0982AD /* libHYBControllerTransitions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHYBControllerTransitions.a; path = libHYBControllerTransitions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3B39B6CAFAE2D5B8631D8E7F0982AD /* libHYBControllerTransitions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYBControllerTransitions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		40832C89BE03E29D3255549317FEB32F /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "Additions/UIView-Debugging.m"; sourceTree = "<group>"; };
 		40DFB1023D7F5B90E151A911697DCF8A /* KIFTypist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTypist.h; path = Classes/KIFTypist.h; sourceTree = "<group>"; };
 		41F5A76784DFFCFF7977358B87FEFAA1 /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "Additions/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
@@ -204,7 +205,7 @@
 		501F12CFA4EAAAC045C5491A2B38923A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		50632EE59FA90767540EFB1D805351BF /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		5126D888DB9627129DC5F1F50B624E8F /* KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIF.h; path = Classes/KIF.h; sourceTree = "<group>"; };
-		52489892A77463A588B13349429CB659 /* libPods-IesPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-IesPush.a"; path = "libPods-IesPush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52489892A77463A588B13349429CB659 /* libPods-IesPush.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IesPush.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572CA458CC9B9B630CF61BEBC2BB7ABE /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		5AC8C112EF676B284FA7C04984C92316 /* HYBMoveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYBMoveTransition.h; path = HYBControllerTransitions/HYBMoveTransition.h; sourceTree = "<group>"; };
 		5BD8ED0C3A64E4CA2AD6F6A9AE3336C0 /* KIFTestStepValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestStepValidation.m; path = Classes/KIFTestStepValidation.m; sourceTree = "<group>"; };
@@ -223,7 +224,7 @@
 		76F76D115E797405B5BF39FF67546494 /* UIViewController+HYBMoveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HYBMoveTransition.h"; path = "HYBControllerTransitions/UIViewController+HYBMoveTransition.h"; sourceTree = "<group>"; };
 		792CD72B9E96181F2A7301522037E410 /* HYBBaseTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYBBaseTransition.h; path = HYBControllerTransitions/HYBBaseTransition.h; sourceTree = "<group>"; };
 		7AFC4F82F9B6EE30E1328714229C11F1 /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
-		812C1A535F95D5B77924C23D6E1F55E0 /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKIF.a; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		812C1A535F95D5B77924C23D6E1F55E0 /* libKIF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKIF.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BE6725272BA338E2CC4370252BF153 /* NSBundle-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle-KIFAdditions.h"; path = "Additions/NSBundle-KIFAdditions.h"; sourceTree = "<group>"; };
 		82FA58FD078F04881753D34E7BD3A99D /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "Additions/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
 		83607D5431891F6AC301032AA8F0A8C1 /* Pods-IesPush-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IesPush-resources.sh"; sourceTree = "<group>"; };
@@ -239,7 +240,7 @@
 		8EB2F510ED34791E2F75BCF03AACA33B /* NSString+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KIFAdditions.h"; path = "Additions/NSString+KIFAdditions.h"; sourceTree = "<group>"; };
 		91FF311BE72FC64B85B39CEE5E8A49C9 /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "Additions/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
 		921A6BA4DC91C3F0B969E68FE51F877E /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B78E1533AC2BD77DF024D2232827AC /* KIFUIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIObject.h; path = Classes/KIFUIObject.h; sourceTree = "<group>"; };
 		962D7FE7BD48854F6CDCC6F21E0CCB82 /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "Additions/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
 		963359876F9FDC0262907C88639EBCB0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -285,7 +286,7 @@
 		DF66868981E6D02C26A628A9BB6CBC20 /* UIScreen+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+KIFAdditions.m"; path = "Additions/UIScreen+KIFAdditions.m"; sourceTree = "<group>"; };
 		E074AC42F81B9FEBE9E1E22866AE392E /* Pods-IesPush.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IesPush.debug.xcconfig"; sourceTree = "<group>"; };
 		E0FCE09E1C349F3CE008D4E0B53BE80D /* XCTestCase-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase-KIFAdditions.m"; path = "Additions/XCTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
-		E41680403B61CDD043C1D17F904B0B97 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41680403B61CDD043C1D17F904B0B97 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5839BC43D8024D6678764960057F209 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		E746F183C6CB117EB3412CF1D0ACC86D /* HYBBubbleTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYBBubbleTransition.m; path = HYBControllerTransitions/HYBBubbleTransition.m; sourceTree = "<group>"; };
 		E75412FEEDE5B6A9772308F8D61AE4DA /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
@@ -360,6 +361,7 @@
 		1FEF9E741AD5B9463B52DA8C0DA0CAE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				0375A7E621789D8E002E229F /* IdentifierTests */,
 				6556ED4B798780F2A224059D7C747DB7 /* AFNetworking */,
 				F791C370C471E1F3E4FDA93D020CB178 /* HYBControllerTransitions */,
 				281D3FDBA7B1783A01CD827D7E90B599 /* KIF */,
@@ -373,7 +375,6 @@
 				D7BC50145A607EDB460595E02522D03F /* Core */,
 				901A9270F4C97621A767CB8B8526B765 /* Support Files */,
 			);
-			name = KIF;
 			path = KIF;
 			sourceTree = "<group>";
 		};
@@ -397,7 +398,6 @@
 				B43DA43819F97F9883BD5896255995DF /* Support Files */,
 				F2E5F69DB243C2E510E19E3F16F25817 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -636,7 +636,6 @@
 				B8E6009467053FDAB7B79D7B64C4F4CA /* UIViewController+HYBMoveTransition.m */,
 				E6893B6398850D3CA9D8A8FDD8C75861 /* Support Files */,
 			);
-			name = HYBControllerTransitions;
 			path = HYBControllerTransitions;
 			sourceTree = "<group>";
 		};
