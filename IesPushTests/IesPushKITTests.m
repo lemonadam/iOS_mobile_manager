@@ -11,7 +11,7 @@
 #import <dlfcn.h>
 #import <objc/runtime.h>
 #import "UIApplication-KIFAdditions.h"
-#import <IdentifierTests/KIFUITestActor-IdentifierTests.h>
+//#import <IdentifierTests/KIFUITestActor-IdentifierTests.h>
 #import <XCTest/XCTest.h>
 
 
@@ -39,6 +39,29 @@
 //    [[viewTester usingLabel:@"Tapped"] waitForView];
 }
 - (void)test_Framework_dialog {
+    
+    sleep(10);
+    NSLog(@"-----start");
+//    [system deactivateAppForDuration:5];
+//    sleep(4);
+//    [[XCUIApplication new] activate];
+    NSLog(@"------->end");
+    
+    
+    
+    
+//    let current = XCTestWDFindElementUtils.getAppName(underElement: root!)
+//    let isRunning = application.running
+//    if current == appname && isRunning {
+//        for i in 0 ..< application.alerts.count {
+//            let alert = application.alerts.element(boundBy: i)
+//            ...
+//        }
+//    }else{
+//        application.launch()
+//        self!.sleep(5)
+    
+    
     sleep(10);
 //    可以直接调用，不过基于uiautomation 已经失效了，即使在手机中打开了这个开关。会一直抛log↓（处理系统弹框）
 //    [UIAutomationHelper acknowledgeSystemAlert];
@@ -52,6 +75,7 @@
     CGPoint imageviewCenter = [imageview.window convertPoint:imageview.center
                                                     fromView:imageview.superview];
     CGPoint minusButton = imageviewCenter;
+    
     minusButton.x = 50;
 //    minusButton.y = CGRectGetHeight(imageview.frame);
     NSLog(@"坐标是----------->");

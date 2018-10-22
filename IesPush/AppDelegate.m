@@ -21,18 +21,19 @@
     // Override point for customization after application launch.
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
     {
-        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings
-                                                                             settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge)
-                                                                             categories:nil]];
-        
-        
-        [[UIApplication sharedApplication] registerForRemoteNotifications];
+//        通知权限
+//        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings
+//                                                                             settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge)
+//                                                                             categories:nil]];
+//
+//
+//        [[UIApplication sharedApplication] registerForRemoteNotifications];
     }
     else
     {
-        //这里还是原来的代码
-        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
-         (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
+//        //这里还是原来的代码
+//        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:
+//         (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
     }
 
         

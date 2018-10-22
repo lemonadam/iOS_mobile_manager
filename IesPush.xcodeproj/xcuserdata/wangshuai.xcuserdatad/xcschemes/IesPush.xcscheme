@@ -38,6 +38,16 @@
                ReferencedContainer = "container:IesPush.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "036EC355217DB99C003524AE"
+               BuildableName = "IesPushUITests.xctest"
+               BlueprintName = "IesPushUITests"
+               ReferencedContainer = "container:IesPush.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
